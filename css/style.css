@@ -1,0 +1,65 @@
+body {
+	background-color: white;
+}
+
+div {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tic-tac-toe {
+    position: relative;
+}
+
+#game {
+	font-size: 50px;
+	margin-bottom: 20px;
+    position: relative;
+}
+
+#winner-text {
+    display: none;
+}
+
+
+h1 {
+    margin: 0;
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+
+input {
+	margin: 10px;
+	font-size: 20px;
+}
+
+button {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+#board {
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#board::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    float: left;
+    line-height: 100px;
+}
+
+#turn-status {
+    font-size: 20px;
+	margin-bottom: 20px;
+}
